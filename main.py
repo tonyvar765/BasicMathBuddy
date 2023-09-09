@@ -20,7 +20,11 @@ def btn_equal():
 expression=""
 input_text=StringVar()
 
-    root.mainloop()
+input_frame = Frame(root, width = 312, height = 50, bd = 0, highlightbackground = "black", highlightcolor = "black", highlightthickness = 1)
+input_frame.pack(side = TOP)
+
+
+root.mainloop()
 
 
 
